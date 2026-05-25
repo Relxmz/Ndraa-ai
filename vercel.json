@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "functions": {
+    "pages/api/chat.js": {
+      "maxDuration": 60
+    },
+    "pages/api/hd-upscale.js": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  }
+}

@@ -1,36 +1,60 @@
 # 🟣 NDRAA AI
 
-> AI cerdas buatan **Rendra A.F** yang siap membantu berbagai kebutuhan kamu.
-
-🌐 **Live Demo**: [ndraa-ai.vercel.app](https://ndraa-ai.vercel.app)
-
----
+AI cerdas yang dikembangkan oleh **Ndra** (Rendra A.F), dirancang untuk membantu berbagai kebutuhan Anda.
 
 ## ✨ Fitur
 
-- 🧠 **Deep Think** — AI berpikir mendalam sebelum menjawab
-- 🔍 **Smart Search** — Cari dan analisis informasi
-- ✨ **HD Upscale** — Tingkatkan foto ke kualitas 4K / 6K / 8K
-- 🔄 **Mulai Ulang** — Reset chat kapan saja
-- 🟣 **Tampilan Modern** — UI ungu dengan animasi smooth
+- 🧠 **AI Chat** — Powered by DeepSeek, bisa berpikir mendalam
+- 🔍 **Deep Think** — Menampilkan proses berpikir AI
+- ✨ **HD Upscale** — Tingkatkan kualitas foto ke 4K/6K/8K
+- 🎨 **UI Ungu Smooth** — Tampilan modern dengan animasi halus
 
 ---
 
-## 🚀 Teknologi
+## 🚀 Deploy ke Vercel (Cara Mudah)
 
-- **Next.js 14** — Framework utama
-- **DeepSeek AI** — Engine kecerdasan buatan
-- **SparkPix** — HD Image Upscaler
-- **Vercel** — Hosting gratis
+### 1. Upload ke GitHub
+
+```bash
+# Clone atau buat repo baru di GitHub
+git init
+git add .
+git commit -m "Initial commit - NDRAA AI"
+git remote add origin https://github.com/USERNAME/ndraa-ai.git
+git push -u origin main
+```
+
+### 2. Deploy ke Vercel
+
+1. Buka [vercel.com](https://vercel.com) dan login
+2. Klik **"Add New Project"**
+3. Import repository GitHub kamu
+4. Pilih framework: **Next.js** (otomatis terdeteksi)
+5. Klik **Deploy** ✅
+
+Selesai! Website kamu akan online di `https://ndraa-ai.vercel.app` (atau nama project kamu).
 
 ---
 
-## 👨‍💻 Pembuat
+## 💻 Jalankan Lokal
 
-**Rendra A.F** — Pengembang NDRAA AI
+```bash
+npm install
+npm run dev
+```
+
+Buka [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📄 Lisensi
+## 🛠 Tech Stack
 
-Project ini bersifat pribadi milik Rendra A.F.
+- **Framework**: Next.js 14
+- **AI**: DeepSeek via NoteGPT API
+- **HD Upscale**: SparkPix API  
+- **Styling**: CSS-in-JS (styled-jsx)
+- **Deploy**: Vercel
+
+---
+
+**NDRAA AI** — Dibuat oleh Rendra A.F 🟣
